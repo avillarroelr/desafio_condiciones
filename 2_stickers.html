@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Noto+Sans:wght@300;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>2.- Stickers</title>
+</head>
+<body>
+    <header class="stickers_header">
+        <h1>2.- Ejercicio Stickers</h1>
+        <a href="index.html">< VOLVER AL INICIO</a>
+    </header>
+    <main class="stickers_main">
+        <h1>Puedes llevar hasta 10 stickers en total</h1>
+        <section class="stickers_section">
+            <figure class="sticker_figure">
+                <h3>Sticker N° 1 </h3>
+                <img class="sickers_img" src="assets/img/estrella.png"
+                    alt="Sticker de estrella">
+                <input id="num1" class="sickers_input" type="number" min="0" max="10">
+            </figure>
+            <figure class="sticker_figure">
+                <h3>Sticker N° 2</h3>
+                <img class="sickers_img" src="assets/img/gomba.png"
+                    alt="Sticker de Gomba">
+                <input id="num2" class="sickers_input" type="number" min="0" max="10">
+            </figure>
+            <figure class="sticker_figure">
+                <h3>Sticker N° 3</h3>
+                <img class="sickers_img" src="assets/img/yoshi.png"
+                    alt="Sticker de yoshi">
+                <input id="num3" class="sickers_input" type="number" min="0" max="10">
+            </figure>
+        </section>
+        <p id="resultStikers"></p>
+        <button onclick="numberStickers ()" class="stickers_button" type="button">VERIFICAR</button>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+/*---------------   General Styles  --------------*/
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.index_header {
+    text-align: center;
+}
+.index_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.index_main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border:3px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.index_main img {
+    width: 60%;
+    filter: grayscale(100%);
+}   
+.index_main:hover img {
+    transition: filter 1s ease-in-out;
+    filter: grayscale(0%);
+}
+/*---------------   Image Border Styles  --------------*/
+.img_border_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:5px;
+    margin-bottom: 10px;
+}
+
+.img_borde_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20 px;
+}
+
+.img_borde_main_img {
+    width: 400px;
+    border: 2px solid white;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+.img_borde_main_change {
+    width: 400px;
+    border: 2px solid red;
+    padding: 20px;
+    filter: grayscale(0%);
+}
+
+/*---------------   Stickers Styles  --------------*/
+.stickers_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:5px;
+    margin-bottom: 10px;
+}
+.stickers_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.stickers_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sticker_figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightgray;
+    border:3px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sickers_img {
+  width:80%;
+}
+.sickers_input {
+    width: 60px;
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+}
+.stickers_button {
+  width: 200px;
+  height:50px;
+  border-radius: 5px;
+}
+
+/*---------------   Password Styles  --------------*/
+.password_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:5px;
+    margin-bottom: 10px;
+}
+.password_main {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border:3px solid red;
+  border-radius: 10px;
+  padding: 30px;
+  text-align:center;
+}
+.password_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap:10px;
+}
+.password_section select {
+    width: 60px;
+    height:30px;
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+}
+.password_button {
+  width: 200px;
+  height:50px;
+  border-radius: 5px;
+}
